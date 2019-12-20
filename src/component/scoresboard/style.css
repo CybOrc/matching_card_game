@@ -1,5 +1,7 @@
 .c-score-table {
 	position: relative;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 .c-score-table__row {

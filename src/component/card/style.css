@@ -3,6 +3,8 @@
 	flex-wrap: wrap;
 	font-size: 0;
     box-sizing: content-box;
+    max-width: 600px;
+    margin: 0 auto;
 }
 .c-card__container {
 	flex-basis: 18%;
