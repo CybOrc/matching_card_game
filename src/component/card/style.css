@@ -1,0 +1,65 @@
+.c-game-table {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0;
+    box-sizing: content-box;
+}
+.c-card__container {
+	flex-basis: 18%;
+    padding-top: 18%;
+    background-size: contain;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease, scale 1s ease;
+    box-shadow: 3px 3px 3px black;
+    margin: 1%;
+    flex-shrink: 1;
+    box-sizing: border-box;
+}
+
+.facedown {
+	background: yellowGreen;
+	border: solid 2px yellow;
+	transform: rotateY(180deg);	
+	}
+
+.faceup {
+    transform: rotateY(180deg);
+}
+
+.solved {
+	transform:scale(0);
+}
+
+.blue {
+	background-color: blue;
+}
+.red {
+	background-color: red;
+}
+.green {
+	background-color: green;
+}
+.purple {
+	background-color: purple;
+}
+.silver {
+	background-color: silver;
+}
+.yellow {
+	background-color: yellow;
+}
+.black {
+	background-color: black;
+}
+.goldenRod {
+	background-color: goldenRod;
+}
+.maroon {
+	background-color: maroon;
+}
+.brown {
+	background-color: brown;
+}
+.orange {
+	background-color: orange;
+}
