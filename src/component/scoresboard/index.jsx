@@ -1,4 +1,5 @@
 import React from 'react'
+import PlayerScoreBar from '../PlayerScoreBar'
 import './style.css'
 
 
@@ -7,10 +8,11 @@ export default function Scoreboard(players) {
 		<section className="c-score-table">
 			{	
 			players.players.map((player) => (
-				<div className = 'c-score-table__row '>
-				<div> {player.name} </div>
-				<div> {player.score} </div>
-				</div>
+				<PlayerScoreBar
+		          name = {player.name}
+		          key = {player.name}
+		          score = {player.score}
+				 />
 				))
 			}
 		</section>
